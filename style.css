@@ -90,7 +90,6 @@ main #text p{
 
 /* BUTTON */
 main #text button{
-    padding: .8em 1.6em;
     background-color: var(--cor-01);
     cursor: pointer;
     overflow: hidden;
@@ -98,6 +97,7 @@ main #text button{
 
 main #text button a{
     display: block;
+    padding: .8em 1.6em;
     color: var(--cor-02);
     transition: scale .2s;
 }
